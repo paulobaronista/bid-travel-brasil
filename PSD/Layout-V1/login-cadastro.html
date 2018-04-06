@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="@paulobaronista">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <title>Bid Travel - Login</title>
+
+    <script type="text/javascript">
+     $(document).ready(function(){
+      $(".nav-button").click(function () {
+      $(".nav-button").toggleClass("open");
+      });    
+    });
+
+    </script>
+  </head>
+  <body>
+
+   <!--  MENU -->
+   <header>
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+     
+         <div class="navbar-header">
+
+           <a class="tt-identificacao" href="index.html">Identificação</a>
+           
+           <form id="busca-topo" style="width: 20%">
+            <!-- <input id="search" class="search_topo"  placeholder=""> -->
+            <input class="lupa_topo" type="submit" value="Pesquisar">
+           </form>
+
+           <button type="button" class="nav-button" data-toggle="collapse" data-target=".navbar-collapse">Toggle Navigation</button>
+         </div>
+     
+         <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="login-cadastro.html" title="Minha conta">MINHA CONTA</a></li>
+                 <li><a href="destinos.html" title="Ver destinos">VER DESTINOS</a></li>
+                 <li><a href="#" title="Movimentação">MOVIMENTAÇÃO</a></li>
+                 <li><a href="#" title="Trocar pontos">TROCAR PONTOS</a></li>
+                 <li><a href="#" title="Token">TOKEN</a></li>
+           </ul>
+         </div>
+
+       </div>
+     </div>
+   </header>
+   <!-- MENU -->
+
+
+<!-- LOGIN - CADASTRO -->
+  <div class="container base">
+
+   <p class="txt-login">Login</p>
+   <p class="txt-login-2">Conecte-se e aproveite nosso aplicativo</p>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="CPF ou número Bidtravel">
+   </div>
+
+   <div class="form-group">
+    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+   </div>
+
+   <div class="form-group">
+    <button type="button" class="btn btn-primary bnt-full bnt-entrar">ENTRAR</button>
+   </div>
+
+   <small><a class="txt-home" href="">[?] Esqueci meu número Bidtravel</a></small><br/>
+   <small><a class="txt-home" href="">[?] Esqueci minha senha</a></small>
+
+   <hr/>
+
+   <p class="txt-n-cadastrado">Não Sou Cadastrado</p>
+   <p class="txt-login-2">Por favor, complete os seus dados.</p> 
+   <p class="txt-login-2">Todos os campos são obrigatórios.</p>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="Nome">
+    <small class="small-aviso">Digite seu nome completo</small>
+   </div>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="CPF">
+    <small class="small-aviso">Digite somente os números</small>
+   </div>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="E-mail">
+    <small class="small-aviso">Digite seu e-mail</small>
+   </div>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="Confirmação de E-mail">
+    <small class="small-aviso small-aviso-email"><a href="">Por que pedimos a confirmação do seu e-mail?</a></small>
+   </div>
+
+   <div class="form-group">
+    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+    <small class="small-aviso">A senha deve ter entre 4 e 18 caracteres</small>
+   </div>
+
+   <div class="form-group">
+    <input type="password" class="form-control" id="pwd" placeholder="Confirmação de senha">
+    <small class="small-aviso">Digite novamente sua senha</small>
+   </div>
+
+
+
+   <div class="form-group">
+    <button type="button" class="btn btn btn-success bnt-full bnt-cadastrar">CADASTRAR</button>
+   </div>
+
+  </div>
+
+<!-- LOGIN - CADASTRO -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

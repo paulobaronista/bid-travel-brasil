@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="@paulobaronista">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <title>Bid Travel - Home</title>
+
+    <script type="text/javascript">
+     $(document).ready(function(){
+      $(".nav-button").click(function () {
+      $(".nav-button").toggleClass("open");
+      });    
+    });
+
+    </script>
+  </head>
+  <body>
+
+   <!--  MENU -->
+   <header>
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+     
+         <div class="navbar-header">
+
+           <a class="tt-destinos-home" href="#">Destinos</a>
+           
+           <form id="busca-topo">
+            <!-- <input id="search" class="search_topo"  placeholder=""> -->
+            <input class="lupa_topo" type="submit" value="Pesquisar">
+           </form>
+           
+
+           <button type="button" class="nav-button" data-toggle="collapse" data-target=".navbar-collapse">Toggle Navigation</button>
+
+         </div>
+     
+         <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="login-cadastro.html" title="Minha conta">MINHA CONTA</a></li>
+                 <li><a href="destinos.html" title="Ver destinos">VER DESTINOS</a></li>
+                 <li><a href="#" title="Movimentação">MOVIMENTAÇÃO</a></li>
+                 <li><a href="#" title="Trocar pontos">TROCAR PONTOS</a></li>
+                 <li><a href="#" title="Token">TOKEN</a></li>
+           </ul>
+         </div>
+
+       </div>
+     </div>
+   </header>
+   <!-- MENU -->
+
+<!-- HOME ENTRAR TELA INICIAL-->
+  <div class="container base">
+
+   <div class="form-group">
+    <h1><img src="imagens/logo-bidtravel-mobile.png" class="img-responsive" alt="BidTravel - Dando asas para você voar longe"></h1>
+   </div>
+
+   <div class="form-group">
+    <input type="text" class="form-control" id="usr" placeholder="CPF ou número Bidtravel">
+   </div>
+
+   <div class="form-group">
+    <input type="password" class="form-control" id="pwd" placeholder="Senha">
+   </div>
+
+   <div class="form-group">
+    <button type="button" class="btn btn-primary bnt-full bnt-entrar">ENTRAR</button>
+   </div>
+
+   <small><a class="txt-home" href="">[?] Esqueci meu número Bidtravel</a></small><br/>
+   <small><a class="txt-home" href="">[?] Esqueci minha senha</a></small>
+
+  </div>
+
+  <div class="form-group">
+    <button type="button" class="btn btn btn-success bnt-full bnt-criar-conta">CRIAR CONTA</button>
+  </div>
+
+<!-- HOME ENTRAR TELA INICIAL-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
